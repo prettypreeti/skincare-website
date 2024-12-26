@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav-bar{
+    height: 14vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 80px;
+    margin-top: 16px;
+    color: aliceblue;
+
+}
+
+.nav{
+    margin-right: 100px;
+    margin-top: 25px;
+}
+div a{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+div h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    background-color: blue;
+    height: 90vh;
+    margin-top: 1px;
+    
+}
+.main-content{
+    margin-top: 80px;
+    margin-left: 40px;
+    color: aliceblue;
+
+}
+.main-content p{
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+
+.main-content button{
+    margin-top: 30px;
+    height: 60px;
+    width: 140px;
+    border-radius: 22px;
+
+}
+.main-img{
+    margin-top: 80px;
+    margin-left: 120px;
+
+}
+.sec{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.sec-content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sec-content p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.sec-content ul{
+    margin-top: 20px;
+    margin-left: 3px;
+}

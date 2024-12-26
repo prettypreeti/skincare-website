@@ -1,0 +1,546 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+.inner{
+width: 100%;
+
+overflow-x:hidden ;
+}
+#check{
+    display: ;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top:0;
+    background-color: burlywood;
+    
+    
+}
+.nav-bar .logo img {
+margin-left: 40px;
+align-items: center;
+
+
+align-items: center;
+}
+
+.nav-bar .logo2{
+    font-size: 50px;
+    background-color:burlywood;
+    
+}
+
+.nav-bar .nav  a{
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+.nav-bar .nav a:hover{
+    text-decoration: underline;
+    color: aliceblue;
+    
+}
+ .nav-bar .nav2  a:hover{
+    text-decoration: underline;
+    color:aliceblue;
+ }
+/*label #check2{
+    color:black;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+ }*/
+ .nav2  a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    display: inline;
+    float :right;
+    position: relative;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+
+.nav2   a{
+    color: black;
+   
+    text-align: center;
+    
+}
+
+.home-main{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    background-color: white;
+}
+.home-main .home-content h3{
+    margin-top: 200px;
+    background-color: white;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.home-main .home-content h1{
+    font-size: 55px;
+    margin-top: 80px;
+    background-color: white;
+    text-indent: 10px;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 170px;
+}
+.sec-content{
+    margin-top: 40px;
+    margin-left: 500px;
+    
+    width: 900px;
+    font-size: 16px;
+    height: 40px;
+    text-indent: 50px;
+}
+
+.second img{
+    width: 500px;
+    height: 57vh;
+    
+}
+.second .two{
+    margin-left: 65px;
+}
+.second  h3{
+   margin-left: 180px;
+    margin-top: 40px;
+
+}
+.second h1{
+    margin-top: 40px;
+    text-align: center;
+}
+.second .four{
+margin-right: 30px;
+margin-top: 0px;
+
+}
+.third-content{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(83, 28%, 60%);
+}
+.third .five-content{
+    margin-top: 150px;
+}
+.third .five-content h3{
+    font-size: 45px;
+    margin-left: 135px;
+}
+.third .five-content h1{
+    font-size: 60px;
+    margin-top: 40px;
+}
+.third .five-content p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.third .five-content img{
+    width: 80px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.third .five-content button{
+    height: 6vh;
+    margin-left: 260px;
+    width: 180px;
+    margin-top: 60px;
+    background-color: hsl(83, 28%, 60%);
+}
+.third .five-content button:hover{
+    background-color:hsl(83, 40%, 19%);
+    color: aliceblue;
+}
+.five2 h3{
+    font-size: 70px;
+    margin-left: 115px;
+    text-align: center;
+    padding-top: 150px;
+
+
+}
+.five2 h1{
+    font-size: 90px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 50px;
+}
+.five2 p{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 95px;
+    text-align: center;
+}
+.five2 img{
+    width: 80px;
+    margin-left: 850px;
+    margin-top: 50px;
+    text-align: center;
+}
+.five2 button{
+    height: 6vh;
+    margin-left: 800px;
+    width: 180px;
+    margin-top: 60px;
+    background: transparent;
+    text-align: center;
+}
+.five2 button:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.five2{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%,100% 0%;
+    height: 100vh;
+    
+}
+.five3 h3{
+    font-size: 70px;
+    margin-left: 115px;
+    text-align: center;
+    padding-top: 150px;
+
+
+}
+.five3 h1{
+    font-size: 90px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 50px;
+}
+.five3 p{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 95px;
+    text-align: center;
+}
+.five3 img{
+    width: 80px;
+    margin-left: 850px;
+    margin-top: 50px;
+    text-align: center;
+}
+.five3 button{
+    height: 6vh;
+    margin-left: 800px;
+    width: 180px;
+    margin-top: 60px;
+    background: transparent;
+    text-align: center;
+}
+.five3 button:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.five3{
+    background-image: url("./images/background22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%,100% 0%;
+    height: 100vh;
+    
+}
+.page{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.page h2{
+    margin-bottom: 50px;
+}
+.page button{
+    margin-left: 190px;
+    height: 7vh;
+    width: 150px;
+    color:white;
+    background-color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.page h1{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.page i{
+    margin-left: 47px;
+    color:black;
+    font-size: 40px;
+}
+.page form .email{
+height: 4vh;
+width: 300px;
+margin-bottom: 20px;
+
+}
+.page form  .submit{
+    height: 4vh;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#hi:checked ~ .hide{
+    display: block;
+    
+}
+.hide{
+    right:-100%;
+    
+    display: none;
+}
+.hide h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.fourth-content{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 209, 152);
+}
+.fourth .fourth2-content h1{
+    margin-top: 240px;
+    font-size: 60px;
+}
+.fourth .fourth2-content p{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.fourth .fourth2-content img{
+    width: 50px;
+    margin-left: 310px;
+    margin-top: 30px;
+    height: 10px;
+    
+}
+.fourth .fourth2-content button{
+    height: 6vh;
+    margin-left: 260px;
+    width: 150px;
+    margin-top: 60px;
+    background-color: rgb(240, 209, 152);
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color:hsl(83, 28%, 60%);
+    
+    
+}
+
+.footer1{
+    margin-top: 40px;
+    
+}
+.footer .footer1 input{
+    height: 4vh;
+    background-color: hsl(83, 28%, 60%);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.footer21{
+    margin-top: 40px;
+}
+.footer22{
+    margin-top: 40px;
+}
+.footer .footer21 ul a{
+    color:black;
+    line-height: 50px;
+
+}
+.footer .footer21 ul a:hover{
+    text-decoration: underline;
+}
+
+.footer .footer22 ul a{
+    color: black;
+    line-height: 50px;
+    
+    
+}
+.footer .footer22 ul a:hover{
+    text-decoration: underline;
+    
+}
+.social{
+    margin-top: 40px;
+}
+.social h1{
+    margin-left: 10px;
+}
+.social  a i{
+    font-size: 40px;
+    color: black;
+    text-indent: 30px;
+    margin-top: 30px;
+    line-height: 80px;
+    margin-right: 10px;
+}
+.social a i:hover{
+    text-decoration: underline;
+    
+}
+
+.logo2{
+    cursor: pointer;
+}
+.footer23{
+    margin-top: 40px;
+}
+.footer23 input{
+    background-color:hsl(83, 28%, 60%);
+    height: 3vh;
+    margin-top: 10px;
+}
+.footer23 i{
+    font-size: 30px;
+}
+.footer23 .brands ul a {
+    color: black;
+}
+.footy{
+    background-color:hsl(83, 28%, 60%) ;
+    height: 10vh;}
+
+.foot{
+    background-color:hsl(83, 28%, 60%) ;
+    text-align: center;
+    height: 20vh;
+    
+}
+
+@media only screen and (max-width:1000px)
+{
+
+    #check1:checked ~ .nav{
+        left: 0px;
+    }
+
+  .nav{
+    position: absolute;
+  width: 800px;
+    background-color: aquamarine;
+    height: 70px;
+    
+    margin-top: 200px;
+    margin-left: 50px;
+    transition: 5s;
+  }  
+
+  .home-main{
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 180px;
+  }
+
+  .sec-content{
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 180px;
+  }
+
+  
+  .second{
+    flex-direction: column;
+    
+    margin-top: 180px;
+    align-items: center;
+  }
+  .sec-content{
+    text-align: center;
+    margin-left: 50px;
+  }
+  .third{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .five2 button{
+    margin-left: 400px;
+    align-items: center;
+  }
+  .five2 img{
+    margin-left: 450px;
+  }
+  .page{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .fourth-content{
+    text-align: center;
+  }
+  .fourth{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .footer{
+    display: block;
+    background-color:hsl(83, 28%, 60%);
+    text-align: center;
+  }
+  .fourth img{
+    align-items: center;
+    margin-right: 180px;
+    
+  }
+  .fourth button{
+    align-items: center;
+    margin-right: 180px;
+  }
+  
+
+}
+
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.herbals h1{
+    text-align: center;
+    font-size: 70px;
+    color: green;
+    
+}
+.imgg1{
+ margin-left: 100px;
+}
+
+
+.img2{
+    display: flex;
+    
+}
+.imgg2{
+    display: flex;
+    
+}
